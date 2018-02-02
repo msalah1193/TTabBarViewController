@@ -107,7 +107,7 @@
                         <userDefinedRuntimeAttribute type="color" keyPath="indicatorColor">
                             <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="onTopIndicator" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="onTopIndicator" value="YES"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="qvv-Is-hV9" kind="relationship" relationship="viewControllers" id="mcw-aF-7KF"/>

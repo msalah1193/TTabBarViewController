@@ -43,12 +43,12 @@ extension UIImage{
     
     
     //MARK:- View Controller Life Cycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
         
         // Draw Indicator above the tab bar items
         guard let numberOfTabs = tabBar.items?.count else {
-                return
+            return
         }
         
         let numberOfTabsFloat = CGFloat(numberOfTabs)
